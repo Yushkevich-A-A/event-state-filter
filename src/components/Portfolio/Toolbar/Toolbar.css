@@ -1,0 +1,27 @@
+.toolbar {
+    display: flex;
+}
+
+.toolbar-item {
+    padding: 3px 10px;
+    border: 1px solid #818181;
+    margin-bottom: 20px;
+}
+
+.toolbar-item:nth-child(n + 2) {
+    margin-left: 10px;
+}
+
+.toolbar-item:hover {
+    background-color: #f3f3f3;
+}
+
+.selected {
+    color: white;
+    background: #818181;
+}
+
+.selected:hover {
+    color: orange;
+    background: #818181;
+}

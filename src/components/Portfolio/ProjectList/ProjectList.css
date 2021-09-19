@@ -1,0 +1,12 @@
+.projects-list {
+    column-count: 3;
+}
+
+.project-item {
+    width: 190px;
+    margin-bottom: 10px;
+}
+
+.project-item-img {
+    width: 100%;
+}
